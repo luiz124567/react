@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #292f36;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+/*MAIN COLOR*/
+.Primary-background{
+  background-color: #0C70F2;
+}
+  .Primary-color{
+ color: #0C70F2;
+}
+.Secondary-background{
+  background-color: #1d1d1d;
+}
+.Secondary-color{
+ color: #1d1d1d;
+}
+.Tertiary-background{
+  background-color: #f6f6f6;
+}
+.Tertiary-color{
+ color: #f6f6f6;
+}
+/*GRID*/
+.CONTAINER{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+.al-center{
+  align-items: center;
+}
+.al-end{
+  align-items: end;
+}
+.d-flex{
+  display:flex;
+}
+.fd-colum{
+  flex-direction: column;
+}
+.jc-center{
+  justify-content: center;
+}
+.jc-end{
+  justify-content: end;
+}
+.jc-space-between{
+  justify-content: space-between;
+}
+@media (max-width:768px) {
+  .container{
+    width: 90%;
+  }
+  .mobile-fd-column{
+    flex-direction: column;
+  }
+}
